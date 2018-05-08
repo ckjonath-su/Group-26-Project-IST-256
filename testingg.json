@@ -4,12 +4,86 @@
         "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
         "@xmlns:SearchResults": "http://www.zillow.com/static/xsd/SearchResults.xsd",
         "request": {
-            "address": "en hogan drive",
-            "citystatezip": "meane n"
+            "address": "300 ben hogan drive",
+            "citystatezip": "mebane nc"
         },
         "message": {
-            "text": "Error: no exact match found for input address",
-            "code": "508"
+            "text": "Request successfully processed",
+            "code": "0"
+        },
+        "response": {
+            "results": {
+                "result": {
+                    "zpid": "79733971",
+                    "links": {
+                        "homedetails": "https://www.zillow.com/homedetails/300-Ben-Hogan-Dr-Mebane-NC-27302/79733971_zpid/",
+                        "graphsanddata": "http://www.zillow.com/homedetails/300-Ben-Hogan-Dr-Mebane-NC-27302/79733971_zpid/#charts-and-data",
+                        "mapthishome": "http://www.zillow.com/homes/79733971_zpid/",
+                        "comparables": "http://www.zillow.com/homes/comps/79733971_zpid/"
+                    },
+                    "address": {
+                        "street": "300 Ben Hogan Dr",
+                        "zipcode": "27302",
+                        "city": "Mebane",
+                        "state": "NC",
+                        "latitude": "36.120782",
+                        "longitude": "-79.272728"
+                    },
+                    "FIPScounty": "37001",
+                    "useCode": "SingleFamily",
+                    "taxAssessmentYear": "2017",
+                    "taxAssessment": "344252.0",
+                    "yearBuilt": "2006",
+                    "lotSizeSqFt": "8843",
+                    "finishedSqFt": "2344",
+                    "bathrooms": "3.5",
+                    "bedrooms": "5",
+                    "lastSoldDate": "01/25/2007",
+                    "lastSoldPrice": {
+                        "@currency": "USD",
+                        "#text": "385000"
+                    },
+                    "zestimate": {
+                        "amount": {
+                            "@currency": "USD",
+                            "#text": "301996"
+                        },
+                        "last-updated": "05/07/2018",
+                        "oneWeekChange": {
+                            "@deprecated": "true"
+                        },
+                        "valueChange": {
+                            "@duration": "30",
+                            "@currency": "USD",
+                            "#text": "-1491"
+                        },
+                        "valuationRange": {
+                            "low": {
+                                "@currency": "USD",
+                                "#text": "280856"
+                            },
+                            "high": {
+                                "@currency": "USD",
+                                "#text": "323136"
+                            }
+                        },
+                        "percentile": "0"
+                    },
+                    "localRealEstate": {
+                        "region": {
+                            "@name": "Mebane",
+                            "@id": "29105",
+                            "@type": "city",
+                            "zindexValue": "163,700",
+                            "links": {
+                                "overview": "http://www.zillow.com/local-info/NC-Mebane/r_29105/",
+                                "forSaleByOwner": "http://www.zillow.com/mebane-nc/fsbo/",
+                                "forSale": "http://www.zillow.com/mebane-nc/"
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
