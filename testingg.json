@@ -1,0 +1,15 @@
+{
+    "SearchResults:searchresults": {
+        "@xsi:schemaLocation": "http://www.zillow.com/static/xsd/SearchResults.xsd https://www.zillowstatic.com/vstatic/b20c067/static/xsd/SearchResults.xsd",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xmlns:SearchResults": "http://www.zillow.com/static/xsd/SearchResults.xsd",
+        "request": {
+            "address": "en hogan drive",
+            "citystatezip": "meane n"
+        },
+        "message": {
+            "text": "Error: no exact match found for input address",
+            "code": "508"
+        }
+    }
+}
