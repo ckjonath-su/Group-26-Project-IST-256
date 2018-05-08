@@ -1,0 +1,176 @@
+{
+    "RegionChildren:regionchildren": {
+        "@xsi:schemaLocation": "http://www.zillow.com/static/xsd/RegionChildren.xsd https://www.zillowstatic.com/vstatic/b20c067/static/xsd/RegionChildren.xsd",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xmlns:RegionChildren": "http://www.zillow.com/static/xsd/RegionChildren.xsd",
+        "request": {
+            "state": "nj",
+            "city": "newark",
+            "childtype": "neighborhood"
+        },
+        "message": {
+            "text": "Request successfully processed",
+            "code": "0"
+        },
+        "response": {
+            "region": {
+                "id": "12970",
+                "latitude": "40.731282",
+                "longitude": "-74.182055"
+            },
+            "subregiontype": "neighborhood",
+            "list": {
+                "count": "21",
+                "region": [
+                    {
+                        "id": "274724",
+                        "name": "North Ironbound",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/North-Ironbound/r_274724/",
+                        "latitude": "40.728983",
+                        "longitude": "-74.154666"
+                    },
+                    {
+                        "id": "273753",
+                        "name": "Forest Hill",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Forest-Hill/r_273753/",
+                        "latitude": "40.773092",
+                        "longitude": "-74.16982"
+                    },
+                    {
+                        "id": "275941",
+                        "name": "Weequahic",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Weequahic/r_275941/",
+                        "latitude": "40.708765",
+                        "longitude": "-74.212396"
+                    },
+                    {
+                        "id": "275830",
+                        "name": "Upper Roseville",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Upper-Roseville/r_275830/",
+                        "latitude": "40.77332",
+                        "longitude": "-74.183587"
+                    },
+                    {
+                        "id": "274374",
+                        "name": "Lower Vailsburg",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Lower-Vailsburg/r_274374/",
+                        "latitude": "40.741089",
+                        "longitude": "-74.240942"
+                    },
+                    {
+                        "id": "276619",
+                        "name": "Upper Clinton Hill",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Upper-Clinton-Hill/r_276619/",
+                        "latitude": "40.719861",
+                        "longitude": "-74.213257"
+                    },
+                    {
+                        "id": "275833",
+                        "name": "Upper Vailsburg",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Upper-Vailsburg/r_275833/",
+                        "latitude": "40.742061",
+                        "longitude": "-74.22563"
+                    },
+                    {
+                        "id": "275990",
+                        "name": "West Side",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/West-Side/r_275990/",
+                        "latitude": "40.73439",
+                        "longitude": "-74.20433"
+                    },
+                    {
+                        "id": "275519",
+                        "name": "Springfield-Belmont",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Springfield--Belmont/r_275519/",
+                        "latitude": "40.731104",
+                        "longitude": "-74.187819"
+                    },
+                    {
+                        "id": "275415",
+                        "name": "South Broad Street",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/South-Broad-Street/r_275415/",
+                        "latitude": "40.721031",
+                        "longitude": "-74.185666"
+                    },
+                    {
+                        "id": "273684",
+                        "name": "Fairmuont",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Fairmuont/r_273684/",
+                        "latitude": "40.746755",
+                        "longitude": "-74.200958"
+                    },
+                    {
+                        "id": "274692",
+                        "name": "North Broadway",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/North-Broadway/r_274692/",
+                        "latitude": "40.772301",
+                        "longitude": "-74.159427"
+                    },
+                    {
+                        "id": "275335",
+                        "name": "Seventh Avenue",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Seventh-Avenue/r_275335/",
+                        "latitude": "40.756772",
+                        "longitude": "-74.177939"
+                    },
+                    {
+                        "id": "274372",
+                        "name": "Lower Roseville",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Lower-Roseville/r_274372/",
+                        "latitude": "40.757302",
+                        "longitude": "-74.19129"
+                    },
+                    {
+                        "id": "276616",
+                        "name": "University Heights",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/University-Heights/r_276616/",
+                        "latitude": "40.74383",
+                        "longitude": "-74.182179"
+                    },
+                    {
+                        "id": "403176",
+                        "name": "Newark Airport - Port Newark",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Newark-Airport----Port-Newark/r_403176/",
+                        "latitude": "40.707892",
+                        "longitude": "-74.161257"
+                    },
+                    {
+                        "id": "274603",
+                        "name": "Mount Pleasant",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Mount-Pleasant/r_274603/",
+                        "latitude": "40.757",
+                        "longitude": "-74.166621"
+                    },
+                    {
+                        "id": "275443",
+                        "name": "South Ironbound",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/South-Ironbound/r_275443/",
+                        "latitude": "40.719362",
+                        "longitude": "-74.171207"
+                    },
+                    {
+                        "id": "273194",
+                        "name": "Central Business District",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Central-Business-District/r_273194/",
+                        "latitude": "40.737689",
+                        "longitude": "-74.170971"
+                    },
+                    {
+                        "id": "274367",
+                        "name": "Lower Clinton Hill",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Lower-Clinton-Hill/r_274367/",
+                        "latitude": "40.717918",
+                        "longitude": "-74.198364"
+                    },
+                    {
+                        "id": "273441",
+                        "name": "Dayton-Weequahic Park",
+                        "url": "http://www.zillow.com/local-info/NJ-Newark/Dayton--Weequahic-Park/r_273441/",
+                        "latitude": "40.700488",
+                        "longitude": "-74.201623"
+                    }
+                ]
+            }
+        }
+    }
+}

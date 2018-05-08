@@ -1,87 +1,32 @@
 {
-    "SearchResults:searchresults": {
-        "@xsi:schemaLocation": "http://www.zillow.com/static/xsd/SearchResults.xsd https://www.zillowstatic.com/vstatic/b20c067/static/xsd/SearchResults.xsd",
+    "RegionChildren:regionchildren": {
+        "@xsi:schemaLocation": "http://www.zillow.com/static/xsd/RegionChildren.xsd https://www.zillowstatic.com/vstatic/b20c067/static/xsd/RegionChildren.xsd",
         "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-        "@xmlns:SearchResults": "http://www.zillow.com/static/xsd/SearchResults.xsd",
+        "@xmlns:RegionChildren": "http://www.zillow.com/static/xsd/RegionChildren.xsd",
         "request": {
-            "address": "2114 Bigelow Ave",
-            "citystatezip": "Seattle, WA"
+            "state": "mebane",
+            "city": "nc",
+            "childtype": "neighborhood"
         },
         "message": {
             "text": "Request successfully processed",
             "code": "0"
         },
         "response": {
-            "results": {
-                "result": {
-                    "zpid": "48749425",
-                    "links": {
-                        "homedetails": "https://www.zillow.com/homedetails/2114-Bigelow-Ave-N-Seattle-WA-98109/48749425_zpid/",
-                        "graphsanddata": "http://www.zillow.com/homedetails/2114-Bigelow-Ave-N-Seattle-WA-98109/48749425_zpid/#charts-and-data",
-                        "mapthishome": "http://www.zillow.com/homes/48749425_zpid/",
-                        "comparables": "http://www.zillow.com/homes/comps/48749425_zpid/"
-                    },
-                    "address": {
-                        "street": "2114 Bigelow Ave N",
-                        "zipcode": "98109",
-                        "city": "SEATTLE",
-                        "state": "WA",
-                        "latitude": "47.637934",
-                        "longitude": "-122.347936"
-                    },
-                    "FIPScounty": "53033",
-                    "useCode": "SingleFamily",
-                    "taxAssessmentYear": "2016",
-                    "taxAssessment": "1226000.0",
-                    "yearBuilt": "1924",
-                    "lotSizeSqFt": "4680",
-                    "finishedSqFt": "3470",
-                    "bathrooms": "3.0",
-                    "bedrooms": "4",
-                    "lastSoldDate": "11/26/2008",
-                    "lastSoldPrice": {
-                        "@currency": "USD",
-                        "#text": "995000"
-                    },
-                    "zestimate": {
-                        "amount": {
-                            "@currency": "USD",
-                            "#text": "2140048"
-                        },
-                        "last-updated": "05/05/2018",
-                        "oneWeekChange": {
-                            "@deprecated": "true"
-                        },
-                        "valueChange": {
-                            "@duration": "30",
-                            "@currency": "USD",
-                            "#text": "69209"
-                        },
-                        "valuationRange": {
-                            "low": {
-                                "@currency": "USD",
-                                "#text": "2033046"
-                            },
-                            "high": {
-                                "@currency": "USD",
-                                "#text": "2247050"
-                            }
-                        },
-                        "percentile": "0"
-                    },
-                    "localRealEstate": {
-                        "region": {
-                            "@name": "East Queen Anne",
-                            "@id": "271856",
-                            "@type": "neighborhood",
-                            "zindexValue": "821,600",
-                            "links": {
-                                "overview": "http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/",
-                                "forSaleByOwner": "http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/",
-                                "forSale": "http://www.zillow.com/east-queen-anne-seattle-wa/"
-                            }
-                        }
-                    }
+            "region": {
+                "id": "29105",
+                "latitude": "36.13716",
+                "longitude": "-79.272444"
+            },
+            "subregiontype": "neighborhood",
+            "list": {
+                "count": "1",
+                "region": {
+                    "id": "185045",
+                    "name": "Woodlawn",
+                    "url": "http://www.zillow.com/local-info/NC-Mebane/Woodlawn/r_185045/",
+                    "latitude": "36.118497",
+                    "longitude": "-79.301767"
                 }
             }
         }
