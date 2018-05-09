@@ -1,15 +1,2598 @@
 {
-    "SearchResults:searchresults": {
-        "@xsi:schemaLocation": "http://www.zillow.com/static/xsd/SearchResults.xsd https://www.zillowstatic.com/vstatic/b20c067/static/xsd/SearchResults.xsd",
+    "RegionChildren:regionchildren": {
+        "@xsi:schemaLocation": "http://www.zillow.com/static/xsd/RegionChildren.xsd https://www.zillowstatic.com/vstatic/b20c067/static/xsd/RegionChildren.xsd",
         "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-        "@xmlns:SearchResults": "http://www.zillow.com/static/xsd/SearchResults.xsd",
+        "@xmlns:RegionChildren": "http://www.zillow.com/static/xsd/RegionChildren.xsd",
         "request": {
-            "address": "21551 redwood lane",
-            "citystatezip": "watertown ny"
+            "state": "NY",
+            "city": "Brooklyn",
+            "childtype": "neighborhood"
         },
         "message": {
-            "text": "Error: no exact match found for input address",
-            "code": "508"
+            "text": "Request successfully processed",
+            "code": "0"
+        },
+        "response": {
+            "region": {
+                "id": "6181",
+                "latitude": "40.705573",
+                "longitude": "-73.977956"
+            },
+            "subregiontype": "neighborhood",
+            "list": {
+                "count": "275",
+                "region": [
+                    {
+                        "id": "270958",
+                        "name": "Upper West Side",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "1307100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Upper-West-Side/r_270958/",
+                        "latitude": "40.78686",
+                        "longitude": "-73.977296"
+                    },
+                    {
+                        "id": "270957",
+                        "name": "Upper East Side",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Upper-East-Side/r_270957/",
+                        "latitude": "40.772163",
+                        "longitude": "-73.957621"
+                    },
+                    {
+                        "id": "194430",
+                        "name": "East New York",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "323300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/East-New-York/r_194430/",
+                        "latitude": "40.665642",
+                        "longitude": "-73.880002"
+                    },
+                    {
+                        "id": "198687",
+                        "name": "Washington Heights",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "573400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Washington-Heights/r_198687/",
+                        "latitude": "40.847551",
+                        "longitude": "-73.93618"
+                    },
+                    {
+                        "id": "272816",
+                        "name": "Astoria",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "638100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Astoria/r_272816/",
+                        "latitude": "40.770115",
+                        "longitude": "-73.920876"
+                    },
+                    {
+                        "id": "199001",
+                        "name": "Williamsburg",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Williamsburg/r_199001/",
+                        "latitude": "40.712551",
+                        "longitude": "-73.947718"
+                    },
+                    {
+                        "id": "272902",
+                        "name": "Bedford Stuyvesant",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "712700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bedford-Stuyvesant/r_272902/",
+                        "latitude": "40.688735",
+                        "longitude": "-73.939123"
+                    },
+                    {
+                        "id": "194737",
+                        "name": "Flatbush",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "853300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Flatbush/r_194737/",
+                        "latitude": "40.642141",
+                        "longitude": "-73.95831"
+                    },
+                    {
+                        "id": "403222",
+                        "name": "Crown Heights",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "795000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Crown-Heights/r_403222/",
+                        "latitude": "40.672245",
+                        "longitude": "-73.943126"
+                    },
+                    {
+                        "id": "25294",
+                        "name": "Jamaica",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "343500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Jamaica/r_25294/",
+                        "latitude": "40.681493",
+                        "longitude": "-73.791392"
+                    },
+                    {
+                        "id": "195267",
+                        "name": "Harlem",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Harlem/r_195267/",
+                        "latitude": "40.813908",
+                        "longitude": "-73.946741"
+                    },
+                    {
+                        "id": "343222",
+                        "name": "Williamsbridge",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "320700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Williamsbridge/r_343222/",
+                        "latitude": "40.875833",
+                        "longitude": "-73.85475"
+                    },
+                    {
+                        "id": "270828",
+                        "name": "East Harlem",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "836200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/East-Harlem/r_270828/",
+                        "latitude": "40.800419",
+                        "longitude": "-73.942401"
+                    },
+                    {
+                        "id": "193587",
+                        "name": "Bushwick",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "580300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bushwick/r_193587/",
+                        "latitude": "40.693896",
+                        "longitude": "-73.918912"
+                    },
+                    {
+                        "id": "194379",
+                        "name": "East Flatbush",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "383600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/East-Flatbush/r_194379/",
+                        "latitude": "40.648584",
+                        "longitude": "-73.927347"
+                    },
+                    {
+                        "id": "10957",
+                        "name": "Corona",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "416100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Corona/r_10957/",
+                        "latitude": "40.749731",
+                        "longitude": "-73.853442"
+                    },
+                    {
+                        "id": "270945",
+                        "name": "Sunset Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Sunset-Park/r_270945/",
+                        "latitude": "40.645903",
+                        "longitude": "-74.015244"
+                    },
+                    {
+                        "id": "270817",
+                        "name": "Concourse",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Concourse/r_270817/",
+                        "latitude": "40.831539",
+                        "longitude": "-73.917934"
+                    },
+                    {
+                        "id": "193406",
+                        "name": "Borough Park",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "742900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Borough-Park/r_193406/",
+                        "latitude": "40.634371",
+                        "longitude": "-73.994201"
+                    },
+                    {
+                        "id": "403223",
+                        "name": "Elmhurst",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "443100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Elmhurst/r_403223/",
+                        "latitude": "40.738673",
+                        "longitude": "-73.879816"
+                    },
+                    {
+                        "id": "193285",
+                        "name": "Bensonhurst",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "666800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bensonhurst/r_193285/",
+                        "latitude": "40.612242",
+                        "longitude": "-73.986913"
+                    },
+                    {
+                        "id": "343205",
+                        "name": "Soundview",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "298700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Soundview/r_343205/",
+                        "latitude": "40.82573",
+                        "longitude": "-73.872107"
+                    },
+                    {
+                        "id": "270875",
+                        "name": "Lower East Side",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Lower-East-Side/r_270875/",
+                        "latitude": "40.716163",
+                        "longitude": "-73.989356"
+                    },
+                    {
+                        "id": "193640",
+                        "name": "Canarsie",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "352000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Canarsie/r_193640/",
+                        "latitude": "40.639864",
+                        "longitude": "-73.898464"
+                    },
+                    {
+                        "id": "343217",
+                        "name": "South Bronx",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "279900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/South-Bronx/r_343217/",
+                        "latitude": "40.832496",
+                        "longitude": "-73.899098"
+                    },
+                    {
+                        "id": "18131",
+                        "name": "Flushing",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "571600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Flushing/r_18131/",
+                        "latitude": "40.749017",
+                        "longitude": "-73.834756"
+                    },
+                    {
+                        "id": "27182",
+                        "name": "South Ozone Park",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "385600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/South-Ozone-Park/r_27182/",
+                        "latitude": "40.67717",
+                        "longitude": "-73.811118"
+                    },
+                    {
+                        "id": "196538",
+                        "name": "Murray Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "714000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Murray-Hill/r_196538/",
+                        "latitude": "40.764912",
+                        "longitude": "-73.806937"
+                    },
+                    {
+                        "id": "403131",
+                        "name": "Sheepshead Bay",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "581300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Sheepshead-Bay/r_403131/",
+                        "latitude": "40.598241",
+                        "longitude": "-73.937828"
+                    },
+                    {
+                        "id": "403215",
+                        "name": "Gravesend",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "753800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Gravesend/r_403215/",
+                        "latitude": "40.59617",
+                        "longitude": "-73.973632"
+                    },
+                    {
+                        "id": "273757",
+                        "name": "Forest Hills",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "733900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Forest-Hills/r_273757/",
+                        "latitude": "40.718794",
+                        "longitude": "-73.842802"
+                    },
+                    {
+                        "id": "270829",
+                        "name": "East Village",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "1283200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/East-Village/r_270829/",
+                        "latitude": "40.726189",
+                        "longitude": "-73.982052"
+                    },
+                    {
+                        "id": "18071",
+                        "name": "Far Rockaway",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "380300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Far-Rockaway/r_18071/",
+                        "latitude": "40.610927",
+                        "longitude": "-73.792337"
+                    },
+                    {
+                        "id": "275173",
+                        "name": "Ridgewood",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "484000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Ridgewood/r_275173/",
+                        "latitude": "40.702558",
+                        "longitude": "-73.900063"
+                    },
+                    {
+                        "id": "45032",
+                        "name": "East Elmhurst",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "544900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/East-Elmhurst/r_45032/",
+                        "latitude": "40.763167",
+                        "longitude": "-73.877692"
+                    },
+                    {
+                        "id": "274117",
+                        "name": "Jackson Heights",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "492800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Jackson-Heights/r_274117/",
+                        "latitude": "40.751649",
+                        "longitude": "-73.884012"
+                    },
+                    {
+                        "id": "270886",
+                        "name": "Midwood",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "730600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Midwood/r_270886/",
+                        "latitude": "40.620209",
+                        "longitude": "-73.951096"
+                    },
+                    {
+                        "id": "274415",
+                        "name": "Flatlands",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "420900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Flatlands/r_274415/",
+                        "latitude": "40.627071",
+                        "longitude": "-73.930959"
+                    },
+                    {
+                        "id": "26352",
+                        "name": "Ozone Park",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "393600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Ozone-Park/r_26352/",
+                        "latitude": "40.677729",
+                        "longitude": "-73.845502"
+                    },
+                    {
+                        "id": "275115",
+                        "name": "Queens Village",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "402600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Queens-Village/r_275115/",
+                        "latitude": "40.712805",
+                        "longitude": "-73.744846"
+                    },
+                    {
+                        "id": "197044",
+                        "name": "Park Slope",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "952700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Park-Slope/r_197044/",
+                        "latitude": "40.671125",
+                        "longitude": "-73.981219"
+                    },
+                    {
+                        "id": "273860",
+                        "name": "Gramercy",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Gramercy/r_273860/",
+                        "latitude": "40.739109",
+                        "longitude": "-73.980009"
+                    },
+                    {
+                        "id": "193526",
+                        "name": "Brownsville",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "308600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Brownsville/r_193526/",
+                        "latitude": "40.663291",
+                        "longitude": "-73.911974"
+                    },
+                    {
+                        "id": "276128",
+                        "name": "Richmond Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "416100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Richmond-Hill/r_276128/",
+                        "latitude": "40.694671",
+                        "longitude": "-73.830018"
+                    },
+                    {
+                        "id": "193189",
+                        "name": "Bay Ridge",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "738400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bay-Ridge/r_193189/",
+                        "latitude": "40.630697",
+                        "longitude": "-74.028777"
+                    },
+                    {
+                        "id": "343215",
+                        "name": "Tremont",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Tremont/r_343215/",
+                        "latitude": "40.851692",
+                        "longitude": "-73.90478"
+                    },
+                    {
+                        "id": "403217",
+                        "name": "Kensington",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "697000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Kensington/r_403217/",
+                        "latitude": "40.637926",
+                        "longitude": "-73.97795"
+                    },
+                    {
+                        "id": "193182",
+                        "name": "Bath Beach",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "568600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bath-Beach/r_193182/",
+                        "latitude": "40.595947",
+                        "longitude": "-74.000959"
+                    },
+                    {
+                        "id": "343204",
+                        "name": "Mott Haven",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Mott-Haven/r_343204/",
+                        "latitude": "40.811586",
+                        "longitude": "-73.917809"
+                    },
+                    {
+                        "id": "343213",
+                        "name": "University Heights",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/University-Heights/r_343213/",
+                        "latitude": "40.863597",
+                        "longitude": "-73.907558"
+                    },
+                    {
+                        "id": "37309",
+                        "name": "Bayside",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "716700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bayside/r_37309/",
+                        "latitude": "40.762894",
+                        "longitude": "-73.769895"
+                    },
+                    {
+                        "id": "343221",
+                        "name": "Bedford Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bedford-Park/r_343221/",
+                        "latitude": "40.875137",
+                        "longitude": "-73.890359"
+                    },
+                    {
+                        "id": "5837",
+                        "name": "Maspeth",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "557000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Maspeth/r_5837/",
+                        "latitude": "40.729066",
+                        "longitude": "-73.906884"
+                    },
+                    {
+                        "id": "270850",
+                        "name": "Hamilton Heights",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "618100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Hamilton-Heights/r_270850/",
+                        "latitude": "40.825917",
+                        "longitude": "-73.950481"
+                    },
+                    {
+                        "id": "276254",
+                        "name": "Chelsea",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Chelsea/r_276254/",
+                        "latitude": "40.746624",
+                        "longitude": "-74.002215"
+                    },
+                    {
+                        "id": "199091",
+                        "name": "Woodside",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "557700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Woodside/r_199091/",
+                        "latitude": "40.750612",
+                        "longitude": "-73.906075"
+                    },
+                    {
+                        "id": "343214",
+                        "name": "Fordham",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Fordham/r_343214/",
+                        "latitude": "40.861704",
+                        "longitude": "-73.894339"
+                    },
+                    {
+                        "id": "275620",
+                        "name": "Sunnyside",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "589500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Sunnyside/r_275620/",
+                        "latitude": "40.740968",
+                        "longitude": "-73.925642"
+                    },
+                    {
+                        "id": "195133",
+                        "name": "Greenwich Village",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Greenwich-Village/r_195133/",
+                        "latitude": "40.732465",
+                        "longitude": "-73.99631"
+                    },
+                    {
+                        "id": "193974",
+                        "name": "Coney Island",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "431100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Coney-Island/r_193974/",
+                        "latitude": "40.576957",
+                        "longitude": "-73.990368"
+                    },
+                    {
+                        "id": "6719",
+                        "name": "Rego Park",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "601700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Rego-Park/r_6719/",
+                        "latitude": "40.722106",
+                        "longitude": "-73.861647"
+                    },
+                    {
+                        "id": "270891",
+                        "name": "Morningside Heights",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Morningside-Heights/r_270891/",
+                        "latitude": "40.810098",
+                        "longitude": "-73.961788"
+                    },
+                    {
+                        "id": "57348",
+                        "name": "Kew Gardens Hills",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "587800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Kew-Gardens-Hills/r_57348/",
+                        "latitude": "40.730338",
+                        "longitude": "-73.823116"
+                    },
+                    {
+                        "id": "270902",
+                        "name": "Ocean Hill",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Ocean-Hill/r_270902/",
+                        "latitude": "40.677038",
+                        "longitude": "-73.913041"
+                    },
+                    {
+                        "id": "343216",
+                        "name": "Morris Heights",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Morris-Heights/r_343216/",
+                        "latitude": "40.85153",
+                        "longitude": "-73.917597"
+                    },
+                    {
+                        "id": "403211",
+                        "name": "Longwood",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Longwood/r_403211/",
+                        "latitude": "40.819595",
+                        "longitude": "-73.89517"
+                    },
+                    {
+                        "id": "343211",
+                        "name": "Parkchester",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "103100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Parkchester/r_343211/",
+                        "latitude": "40.837968",
+                        "longitude": "-73.86265"
+                    },
+                    {
+                        "id": "270903",
+                        "name": "Ocean Parkway",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "797100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Ocean-Parkway/r_270903/",
+                        "latitude": "40.620455",
+                        "longitude": "-73.974677"
+                    },
+                    {
+                        "id": "49994",
+                        "name": "Woodhaven",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "396200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Woodhaven/r_49994/",
+                        "latitude": "40.690828",
+                        "longitude": "-73.856535"
+                    },
+                    {
+                        "id": "195576",
+                        "name": "Inwood",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Inwood/r_195576/",
+                        "latitude": "40.866564",
+                        "longitude": "-73.921516"
+                    },
+                    {
+                        "id": "403213",
+                        "name": "Norwood",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Norwood/r_403213/",
+                        "latitude": "40.877735",
+                        "longitude": "-73.876794"
+                    },
+                    {
+                        "id": "343208",
+                        "name": "High Bridge",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/High-Bridge/r_343208/",
+                        "latitude": "40.836835",
+                        "longitude": "-73.92387"
+                    },
+                    {
+                        "id": "194318",
+                        "name": "Dyker Heights",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "746100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Dyker-Heights/r_194318/",
+                        "latitude": "40.620453",
+                        "longitude": "-74.011966"
+                    },
+                    {
+                        "id": "343225",
+                        "name": "Wakefield",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "336500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Wakefield/r_343225/",
+                        "latitude": "40.899194",
+                        "longitude": "-73.847751"
+                    },
+                    {
+                        "id": "343212",
+                        "name": "Morris Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Morris-Park/r_343212/",
+                        "latitude": "40.850536",
+                        "longitude": "-73.853361"
+                    },
+                    {
+                        "id": "403210",
+                        "name": "Melrose",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "235900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Melrose/r_403210/",
+                        "latitude": "40.81808",
+                        "longitude": "-73.913259"
+                    },
+                    {
+                        "id": "270819",
+                        "name": "Co-op City",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Co--op-City/r_270819/",
+                        "latitude": "40.872339",
+                        "longitude": "-73.826894"
+                    },
+                    {
+                        "id": "275552",
+                        "name": "St. Albans",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "363100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/St.-Albans/r_275552/",
+                        "latitude": "40.691648",
+                        "longitude": "-73.764389"
+                    },
+                    {
+                        "id": "343210",
+                        "name": "Throggs Neck",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "372700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Throggs-Neck/r_343210/",
+                        "latitude": "40.820447",
+                        "longitude": "-73.816025"
+                    },
+                    {
+                        "id": "25160",
+                        "name": "Hollis",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "389900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Hollis/r_25160/",
+                        "latitude": "40.708767",
+                        "longitude": "-73.763015"
+                    },
+                    {
+                        "id": "276060",
+                        "name": "Whitestone",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "735700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Whitestone/r_276060/",
+                        "latitude": "40.786784",
+                        "longitude": "-73.810801"
+                    },
+                    {
+                        "id": "273766",
+                        "name": "Fort Greene",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "907900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Fort-Greene/r_273766/",
+                        "latitude": "40.692098",
+                        "longitude": "-73.977284"
+                    },
+                    {
+                        "id": "194474",
+                        "name": "East Tremont",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/East-Tremont/r_194474/",
+                        "latitude": "40.848316",
+                        "longitude": "-73.892508"
+                    },
+                    {
+                        "id": "273903",
+                        "name": "Greenwood",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "772800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Greenwood/r_273903/",
+                        "latitude": "40.657825",
+                        "longitude": "-73.997441"
+                    },
+                    {
+                        "id": "270848",
+                        "name": "Greenpoint",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "776400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Greenpoint/r_270848/",
+                        "latitude": "40.728783",
+                        "longitude": "-73.945981"
+                    },
+                    {
+                        "id": "343220",
+                        "name": "Kingsbridge",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "415700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Kingsbridge/r_343220/",
+                        "latitude": "40.878832",
+                        "longitude": "-73.902738"
+                    },
+                    {
+                        "id": "403110",
+                        "name": "Rochdale",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "371800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Rochdale/r_403110/",
+                        "latitude": "40.674854",
+                        "longitude": "-73.771305"
+                    },
+                    {
+                        "id": "276345",
+                        "name": "Glendale",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "487900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Glendale/r_276345/",
+                        "latitude": "40.697875",
+                        "longitude": "-73.877278"
+                    },
+                    {
+                        "id": "403221",
+                        "name": "Prospect Lefferts Gardens",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "1224800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Prospect-Lefferts-Gardens/r_403221/",
+                        "latitude": "40.65908",
+                        "longitude": "-73.955115"
+                    },
+                    {
+                        "id": "196338",
+                        "name": "Middle Village",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "583600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Middle-Village/r_196338/",
+                        "latitude": "40.718574",
+                        "longitude": "-73.876962"
+                    },
+                    {
+                        "id": "270855",
+                        "name": "Homecrest",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "593400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Homecrest/r_270855/",
+                        "latitude": "40.601093",
+                        "longitude": "-73.956214"
+                    },
+                    {
+                        "id": "403226",
+                        "name": "Bellerose",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "495600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bellerose/r_403226/",
+                        "latitude": "40.731285",
+                        "longitude": "-73.728638"
+                    },
+                    {
+                        "id": "8731",
+                        "name": "Fort Hamilton",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "710400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Fort-Hamilton/r_8731/",
+                        "latitude": "40.61415",
+                        "longitude": "-74.029876"
+                    },
+                    {
+                        "id": "270835",
+                        "name": "Financial District",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "1065800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Financial-District/r_270835/",
+                        "latitude": "40.706695",
+                        "longitude": "-74.008291"
+                    },
+                    {
+                        "id": "44302",
+                        "name": "Briarwood",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "439700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Briarwood/r_44302/",
+                        "latitude": "40.711999",
+                        "longitude": "-73.815022"
+                    },
+                    {
+                        "id": "193476",
+                        "name": "Brighton Beach",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "617100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Brighton-Beach/r_193476/",
+                        "latitude": "40.578628",
+                        "longitude": "-73.961413"
+                    },
+                    {
+                        "id": "270797",
+                        "name": "Auburndale",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "687600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Auburndale/r_270797/",
+                        "latitude": "40.750871",
+                        "longitude": "-73.790265"
+                    },
+                    {
+                        "id": "403206",
+                        "name": "Flatiron District",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Flatiron-District/r_403206/",
+                        "latitude": "40.742048",
+                        "longitude": "-73.988338"
+                    },
+                    {
+                        "id": "274285",
+                        "name": "Laurelton",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "387300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Laurelton/r_274285/",
+                        "latitude": "40.679493",
+                        "longitude": "-73.741887"
+                    },
+                    {
+                        "id": "270908",
+                        "name": "Pelham Gardens",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Pelham-Gardens/r_270908/",
+                        "latitude": "40.864899",
+                        "longitude": "-73.841196"
+                    },
+                    {
+                        "id": "275247",
+                        "name": "Rosedale",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "381400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Rosedale/r_275247/",
+                        "latitude": "40.658154",
+                        "longitude": "-73.739843"
+                    },
+                    {
+                        "id": "21970",
+                        "name": "Howard Beach",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "555000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Howard-Beach/r_21970/",
+                        "latitude": "40.657966",
+                        "longitude": "-73.844777"
+                    },
+                    {
+                        "id": "8349",
+                        "name": "College Point",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "542600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/College-Point/r_8349/",
+                        "latitude": "40.78125",
+                        "longitude": "-73.842244"
+                    },
+                    {
+                        "id": "270881",
+                        "name": "Marine Park",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "491400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Marine-Park/r_270881/",
+                        "latitude": "40.604142",
+                        "longitude": "-73.921751"
+                    },
+                    {
+                        "id": "270907",
+                        "name": "Pelham Bay",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "373700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Pelham-Bay/r_270907/",
+                        "latitude": "40.842348",
+                        "longitude": "-73.833128"
+                    },
+                    {
+                        "id": "273653",
+                        "name": "Eltingville",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "423900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Eltingville/r_273653/",
+                        "latitude": "40.545254",
+                        "longitude": "-74.163516"
+                    },
+                    {
+                        "id": "273478",
+                        "name": "Douglaston-Little Neck",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "801500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Douglaston--Little-Neck/r_273478/",
+                        "latitude": "40.76324",
+                        "longitude": "-73.736249"
+                    },
+                    {
+                        "id": "270815",
+                        "name": "Clinton Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "813000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Clinton-Hill/r_270815/",
+                        "latitude": "40.689047",
+                        "longitude": "-73.96449"
+                    },
+                    {
+                        "id": "195087",
+                        "name": "Great Kills",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "410600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Great-Kills/r_195087/",
+                        "latitude": "40.549837",
+                        "longitude": "-74.138168"
+                    },
+                    {
+                        "id": "4819",
+                        "name": "Fresh Meadows",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "718500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Fresh-Meadows/r_4819/",
+                        "latitude": "40.733633",
+                        "longitude": "-73.780947"
+                    },
+                    {
+                        "id": "26254",
+                        "name": "Oakland Gardens",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "763000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Oakland-Gardens/r_26254/",
+                        "latitude": "40.739824",
+                        "longitude": "-73.752145"
+                    },
+                    {
+                        "id": "270964",
+                        "name": "West Village",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/West-Village/r_270964/",
+                        "latitude": "40.735723",
+                        "longitude": "-74.007023"
+                    },
+                    {
+                        "id": "274676",
+                        "name": "Kew Gardens",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "528700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Kew-Gardens/r_274676/",
+                        "latitude": "40.707837",
+                        "longitude": "-73.829474"
+                    },
+                    {
+                        "id": "403122",
+                        "name": "Brooklyn Heights",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Brooklyn-Heights/r_403122/",
+                        "latitude": "40.696465",
+                        "longitude": "-73.997122"
+                    },
+                    {
+                        "id": "270946",
+                        "name": "Sutton Place",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Sutton-Place/r_270946/",
+                        "latitude": "40.758477",
+                        "longitude": "-73.964818"
+                    },
+                    {
+                        "id": "270812",
+                        "name": "Castle Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "337400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Castle-Hill/r_270812/",
+                        "latitude": "40.819453",
+                        "longitude": "-73.849775"
+                    },
+                    {
+                        "id": "403203",
+                        "name": "West Brighton",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "405400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/West-Brighton/r_403203/",
+                        "latitude": "40.633166",
+                        "longitude": "-74.112791"
+                    },
+                    {
+                        "id": "343209",
+                        "name": "Unionport",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Unionport/r_343209/",
+                        "latitude": "40.833617",
+                        "longitude": "-73.851089"
+                    },
+                    {
+                        "id": "403209",
+                        "name": "Belmont",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Belmont/r_403209/",
+                        "latitude": "40.858713",
+                        "longitude": "-73.88572"
+                    },
+                    {
+                        "id": "270969",
+                        "name": "Wingate",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "496800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Wingate/r_270969/",
+                        "latitude": "40.659945",
+                        "longitude": "-73.939544"
+                    },
+                    {
+                        "id": "270853",
+                        "name": "Heartland Village",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "294300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Heartland-Village/r_270853/",
+                        "latitude": "40.582763",
+                        "longitude": "-74.158647"
+                    },
+                    {
+                        "id": "270846",
+                        "name": "Gowanus",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "848700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Gowanus/r_270846/",
+                        "latitude": "40.675525",
+                        "longitude": "-73.989734"
+                    },
+                    {
+                        "id": "403220",
+                        "name": "Prospect Heights",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "858700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Prospect-Heights/r_403220/",
+                        "latitude": "40.677674",
+                        "longitude": "-73.969942"
+                    },
+                    {
+                        "id": "270879",
+                        "name": "Manhattanville",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Manhattanville/r_270879/",
+                        "latitude": "40.816898",
+                        "longitude": "-73.954669"
+                    },
+                    {
+                        "id": "270953",
+                        "name": "Turtle Bay",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Turtle-Bay/r_270953/",
+                        "latitude": "40.753334",
+                        "longitude": "-73.969031"
+                    },
+                    {
+                        "id": "196623",
+                        "name": "New Utrecht",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "695100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/New-Utrecht/r_196623/",
+                        "latitude": "40.615124",
+                        "longitude": "-74.004674"
+                    },
+                    {
+                        "id": "270885",
+                        "name": "Midtown",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Midtown/r_270885/",
+                        "latitude": "40.759903",
+                        "longitude": "-73.97891"
+                    },
+                    {
+                        "id": "48417",
+                        "name": "West Farms",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/West-Farms/r_48417/",
+                        "latitude": "40.842739",
+                        "longitude": "-73.87888"
+                    },
+                    {
+                        "id": "197303",
+                        "name": "Port Richmond",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "302400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Port-Richmond/r_197303/",
+                        "latitude": "40.633064",
+                        "longitude": "-74.133785"
+                    },
+                    {
+                        "id": "403205",
+                        "name": "Stuyvesant Town",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Stuyvesant-Town/r_403205/",
+                        "latitude": "40.731036",
+                        "longitude": "-73.97688"
+                    },
+                    {
+                        "id": "343223",
+                        "name": "Baychester",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "326500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Baychester/r_343223/",
+                        "latitude": "40.871321",
+                        "longitude": "-73.841383"
+                    },
+                    {
+                        "id": "270951",
+                        "name": "Tribeca",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "3214800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Tribeca/r_270951/",
+                        "latitude": "40.718916",
+                        "longitude": "-74.008453"
+                    },
+                    {
+                        "id": "343218",
+                        "name": "Spuyten Duyvil",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Spuyten-Duyvil/r_343218/",
+                        "latitude": "40.881511",
+                        "longitude": "-73.914914"
+                    },
+                    {
+                        "id": "270810",
+                        "name": "Carnegie Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "1813500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Carnegie-Hill/r_270810/",
+                        "latitude": "40.783792",
+                        "longitude": "-73.955844"
+                    },
+                    {
+                        "id": "35961",
+                        "name": "Rockaway Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Rockaway-Park/r_35961/",
+                        "latitude": "40.574866",
+                        "longitude": "-73.844637"
+                    },
+                    {
+                        "id": "270952",
+                        "name": "Tudor City",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Tudor-City/r_270952/",
+                        "latitude": "40.747416",
+                        "longitude": "-73.972777"
+                    },
+                    {
+                        "id": "198587",
+                        "name": "Van Nest",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Van-Nest/r_198587/",
+                        "latitude": "40.845326",
+                        "longitude": "-73.86418"
+                    },
+                    {
+                        "id": "272869",
+                        "name": "Battery Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Battery-Park/r_272869/",
+                        "latitude": "40.711701",
+                        "longitude": "-74.015889"
+                    },
+                    {
+                        "id": "50348",
+                        "name": "Cambria Heights",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "384700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Cambria-Heights/r_50348/",
+                        "latitude": "40.692417",
+                        "longitude": "-73.737802"
+                    },
+                    {
+                        "id": "403111",
+                        "name": "Westchester Heights",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Westchester-Heights/r_403111/",
+                        "latitude": "40.845329",
+                        "longitude": "-73.843989"
+                    },
+                    {
+                        "id": "403228",
+                        "name": "Hillcrest",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "592400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Hillcrest/r_403228/",
+                        "latitude": "40.722974",
+                        "longitude": "-73.800626"
+                    },
+                    {
+                        "id": "272785",
+                        "name": "Arden Heights",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "348800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Arden-Heights/r_272785/",
+                        "latitude": "40.550151",
+                        "longitude": "-74.190555"
+                    },
+                    {
+                        "id": "196620",
+                        "name": "New Springville",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "419600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/New-Springville/r_196620/",
+                        "latitude": "40.59336",
+                        "longitude": "-74.133024"
+                    },
+                    {
+                        "id": "403136",
+                        "name": "Emerson Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "497100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Emerson-Hill/r_403136/",
+                        "latitude": "40.601317",
+                        "longitude": "-74.111504"
+                    },
+                    {
+                        "id": "32192",
+                        "name": "Jamaica Estates",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "894900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Jamaica-Estates/r_32192/",
+                        "latitude": "40.719961",
+                        "longitude": "-73.783616"
+                    },
+                    {
+                        "id": "55801",
+                        "name": "Glen Oaks",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "584000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Glen-Oaks/r_55801/",
+                        "latitude": "40.750407",
+                        "longitude": "-73.717232"
+                    },
+                    {
+                        "id": "196213",
+                        "name": "Mariner's Harbor",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "286000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Mariner's-Harbor/r_196213/",
+                        "latitude": "40.63473",
+                        "longitude": "-74.154952"
+                    },
+                    {
+                        "id": "343219",
+                        "name": "Riverdale",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Riverdale/r_343219/",
+                        "latitude": "40.894613",
+                        "longitude": "-73.909211"
+                    },
+                    {
+                        "id": "270800",
+                        "name": "Bay Terrace",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bay-Terrace/r_270800/",
+                        "latitude": "40.78657",
+                        "longitude": "-73.781263"
+                    },
+                    {
+                        "id": "196875",
+                        "name": "Oakwood",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "399800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Oakwood/r_196875/",
+                        "latitude": "40.558983",
+                        "longitude": "-74.115244"
+                    },
+                    {
+                        "id": "403225",
+                        "name": "Floral park",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "547300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Floral-park/r_403225/",
+                        "latitude": "40.739851",
+                        "longitude": "-73.70899"
+                    },
+                    {
+                        "id": "270811",
+                        "name": "Carroll Gardens",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "973400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Carroll-Gardens/r_270811/",
+                        "latitude": "40.67952",
+                        "longitude": "-73.997415"
+                    },
+                    {
+                        "id": "270900",
+                        "name": "North Riverdale",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/North-Riverdale/r_270900/",
+                        "latitude": "40.908153",
+                        "longitude": "-73.905523"
+                    },
+                    {
+                        "id": "20239",
+                        "name": "Roosevelt Island",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Roosevelt-Island/r_20239/",
+                        "latitude": "40.761173",
+                        "longitude": "-73.950805"
+                    },
+                    {
+                        "id": "343203",
+                        "name": "Hunts Point",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Hunts-Point/r_343203/",
+                        "latitude": "40.809098",
+                        "longitude": "-73.885608"
+                    },
+                    {
+                        "id": "193555",
+                        "name": "Bulls Head",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "376900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bulls-Head/r_193555/",
+                        "latitude": "40.606618",
+                        "longitude": "-74.165936"
+                    },
+                    {
+                        "id": "272994",
+                        "name": "Boerum Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "975700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Boerum-Hill/r_272994/",
+                        "latitude": "40.685785",
+                        "longitude": "-73.986025"
+                    },
+                    {
+                        "id": "270861",
+                        "name": "Jamaica Hills",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "556500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Jamaica-Hills/r_270861/",
+                        "latitude": "40.713453",
+                        "longitude": "-73.799312"
+                    },
+                    {
+                        "id": "10007",
+                        "name": "Arverne",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "299100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Arverne/r_10007/",
+                        "latitude": "40.594081",
+                        "longitude": "-73.79712"
+                    },
+                    {
+                        "id": "197599",
+                        "name": "Rosebank",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "341700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Rosebank/r_197599/",
+                        "latitude": "40.612038",
+                        "longitude": "-74.070307"
+                    },
+                    {
+                        "id": "403202",
+                        "name": "St. George",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "321400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/St.-George/r_403202/",
+                        "latitude": "40.643024",
+                        "longitude": "-74.079408"
+                    },
+                    {
+                        "id": "198184",
+                        "name": "Stapleton",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "274600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Stapleton/r_198184/",
+                        "latitude": "40.623679",
+                        "longitude": "-74.079472"
+                    },
+                    {
+                        "id": "195067",
+                        "name": "Graniteville",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "274100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Graniteville/r_195067/",
+                        "latitude": "40.619845",
+                        "longitude": "-74.157514"
+                    },
+                    {
+                        "id": "403125",
+                        "name": "Meiers Corners",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "401500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Meiers-Corners/r_403125/",
+                        "latitude": "40.61647",
+                        "longitude": "-74.14132"
+                    },
+                    {
+                        "id": "403218",
+                        "name": "Georgetown",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "435700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Georgetown/r_403218/",
+                        "latitude": "40.624872",
+                        "longitude": "-73.91041"
+                    },
+                    {
+                        "id": "270928",
+                        "name": "SoHo",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/SoHo/r_270928/",
+                        "latitude": "40.724185",
+                        "longitude": "-74.005393"
+                    },
+                    {
+                        "id": "270857",
+                        "name": "Hunters Point",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "906300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Hunters-Point/r_270857/",
+                        "latitude": "40.746688",
+                        "longitude": "-73.9485"
+                    },
+                    {
+                        "id": "197042",
+                        "name": "Park Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "266800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Park-Hill/r_197042/",
+                        "latitude": "40.611922",
+                        "longitude": "-74.083476"
+                    },
+                    {
+                        "id": "197427",
+                        "name": "Red Hook",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Red-Hook/r_197427/",
+                        "latitude": "40.67547",
+                        "longitude": "-74.009279"
+                    },
+                    {
+                        "id": "193821",
+                        "name": "Chinatown",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Chinatown/r_193821/",
+                        "latitude": "40.716586",
+                        "longitude": "-73.997567"
+                    },
+                    {
+                        "id": "197623",
+                        "name": "Rossville",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "338700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Rossville/r_197623/",
+                        "latitude": "40.549903",
+                        "longitude": "-74.216804"
+                    },
+                    {
+                        "id": "274627",
+                        "name": "Murray Hill",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Murray-Hill/r_274627/",
+                        "latitude": "40.749842",
+                        "longitude": "-73.979525"
+                    },
+                    {
+                        "id": "275754",
+                        "name": "Tottenville",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "475100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Tottenville/r_275754/",
+                        "latitude": "40.506551",
+                        "longitude": "-74.244334"
+                    },
+                    {
+                        "id": "195511",
+                        "name": "Huguenot",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "550800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Huguenot/r_195511/",
+                        "latitude": "40.531384",
+                        "longitude": "-74.190412"
+                    },
+                    {
+                        "id": "270825",
+                        "name": "Downtown",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "847700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Downtown/r_270825/",
+                        "latitude": "40.693462",
+                        "longitude": "-73.985255"
+                    },
+                    {
+                        "id": "275164",
+                        "name": "Richmond Town",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "432500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Richmond-Town/r_275164/",
+                        "latitude": "40.567551",
+                        "longitude": "-74.13693"
+                    },
+                    {
+                        "id": "13356",
+                        "name": "Pomonok",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "443400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Pomonok/r_13356/",
+                        "latitude": "40.732923",
+                        "longitude": "-73.807893"
+                    },
+                    {
+                        "id": "343224",
+                        "name": "Eastchester",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "366600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Eastchester/r_343224/",
+                        "latitude": "40.884283",
+                        "longitude": "-73.829173"
+                    },
+                    {
+                        "id": "270912",
+                        "name": "Prince's Bay",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "543300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Prince's-Bay/r_270912/",
+                        "latitude": "40.523107",
+                        "longitude": "-74.203132"
+                    },
+                    {
+                        "id": "196350",
+                        "name": "Midland Beach",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "329400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Midland-Beach/r_196350/",
+                        "latitude": "40.57643",
+                        "longitude": "-74.08918"
+                    },
+                    {
+                        "id": "193861",
+                        "name": "Clason Point",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "305400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Clason-Point/r_193861/",
+                        "latitude": "40.810149",
+                        "longitude": "-73.858844"
+                    },
+                    {
+                        "id": "195119",
+                        "name": "Greenridge",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "369300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Greenridge/r_195119/",
+                        "latitude": "40.55985",
+                        "longitude": "-74.184953"
+                    },
+                    {
+                        "id": "270873",
+                        "name": "Little Italy",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "1562500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Little-Italy/r_270873/",
+                        "latitude": "40.721454",
+                        "longitude": "-73.996443"
+                    },
+                    {
+                        "id": "197995",
+                        "name": "South Beach",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "367100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/South-Beach/r_197995/",
+                        "latitude": "40.587126",
+                        "longitude": "-74.075337"
+                    },
+                    {
+                        "id": "270880",
+                        "name": "Marble Hill",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Marble-Hill/r_270880/",
+                        "latitude": "40.875429",
+                        "longitude": "-73.91119"
+                    },
+                    {
+                        "id": "195167",
+                        "name": "Grymes Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "457500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Grymes-Hill/r_195167/",
+                        "latitude": "40.62",
+                        "longitude": "-74.09331"
+                    },
+                    {
+                        "id": "270968",
+                        "name": "Windsor Terrace",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "817600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Windsor-Terrace/r_270968/",
+                        "latitude": "40.654136",
+                        "longitude": "-73.977707"
+                    },
+                    {
+                        "id": "56273",
+                        "name": "Rockaway Beach",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "305500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Rockaway-Beach/r_56273/",
+                        "latitude": "40.587764",
+                        "longitude": "-73.813088"
+                    },
+                    {
+                        "id": "403204",
+                        "name": "Castleton Corners",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "445100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Castleton-Corners/r_403204/",
+                        "latitude": "40.617931",
+                        "longitude": "-74.124853"
+                    },
+                    {
+                        "id": "193043",
+                        "name": "Arrochar",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "397100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Arrochar/r_193043/",
+                        "latitude": "40.597313",
+                        "longitude": "-74.072696"
+                    },
+                    {
+                        "id": "275518",
+                        "name": "Springfield Gardens",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "344100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Springfield-Gardens/r_275518/",
+                        "latitude": "40.656622",
+                        "longitude": "-73.76485"
+                    },
+                    {
+                        "id": "343226",
+                        "name": "Country Club",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "440600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Country-Club/r_343226/",
+                        "latitude": "40.842066",
+                        "longitude": "-73.818718"
+                    },
+                    {
+                        "id": "270816",
+                        "name": "Cobble Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "927900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Cobble-Hill/r_270816/",
+                        "latitude": "40.687404",
+                        "longitude": "-73.996569"
+                    },
+                    {
+                        "id": "343206",
+                        "name": "Woodlawn",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "420000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Woodlawn/r_343206/",
+                        "latitude": "40.891482",
+                        "longitude": "-73.870274"
+                    },
+                    {
+                        "id": "195069",
+                        "name": "Grant City",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "391600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Grant-City/r_195069/",
+                        "latitude": "40.578908",
+                        "longitude": "-74.106403"
+                    },
+                    {
+                        "id": "270904",
+                        "name": "Old Town",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "432600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Old-Town/r_270904/",
+                        "latitude": "40.593951",
+                        "longitude": "-74.091612"
+                    },
+                    {
+                        "id": "272771",
+                        "name": "Annadale",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "597600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Annadale/r_272771/",
+                        "latitude": "40.534443",
+                        "longitude": "-74.173702"
+                    },
+                    {
+                        "id": "16920",
+                        "name": "Bay Terrace",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "393200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bay-Terrace/r_16920/",
+                        "latitude": "40.556415",
+                        "longitude": "-74.136619"
+                    },
+                    {
+                        "id": "403199",
+                        "name": "Grasmere - Concord",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "436500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Grasmere----Concord/r_403199/",
+                        "latitude": "40.60326",
+                        "longitude": "-74.085027"
+                    },
+                    {
+                        "id": "270888",
+                        "name": "Mill Basin",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "964000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Mill-Basin/r_270888/",
+                        "latitude": "40.611331",
+                        "longitude": "-73.912777"
+                    },
+                    {
+                        "id": "196156",
+                        "name": "Manhattan Beach",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Manhattan-Beach/r_196156/",
+                        "latitude": "40.578102",
+                        "longitude": "-73.942225"
+                    },
+                    {
+                        "id": "198432",
+                        "name": "Tompkinsville",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "278200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Tompkinsville/r_198432/",
+                        "latitude": "40.63345",
+                        "longitude": "-74.080171"
+                    },
+                    {
+                        "id": "196583",
+                        "name": "New Brighton",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "322200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/New-Brighton/r_196583/",
+                        "latitude": "40.63955",
+                        "longitude": "-74.091869"
+                    },
+                    {
+                        "id": "270895",
+                        "name": "NoHo",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/NoHo/r_270895/",
+                        "latitude": "40.72756",
+                        "longitude": "-73.993719"
+                    },
+                    {
+                        "id": "196591",
+                        "name": "New Dorp",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "463800"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/New-Dorp/r_196591/",
+                        "latitude": "40.574798",
+                        "longitude": "-74.116777"
+                    },
+                    {
+                        "id": "199080",
+                        "name": "Woodrow",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "469000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Woodrow/r_199080/",
+                        "latitude": "40.536802",
+                        "longitude": "-74.21457"
+                    },
+                    {
+                        "id": "270844",
+                        "name": "Gerritsen Beach",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "372000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Gerritsen-Beach/r_270844/",
+                        "latitude": "40.593092",
+                        "longitude": "-73.92588"
+                    },
+                    {
+                        "id": "270854",
+                        "name": "Holliswood",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "889100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Holliswood/r_270854/",
+                        "latitude": "40.72076",
+                        "longitude": "-73.768331"
+                    },
+                    {
+                        "id": "270796",
+                        "name": "Astoria Heights",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "342500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Astoria-Heights/r_270796/",
+                        "latitude": "40.772009",
+                        "longitude": "-73.894262"
+                    },
+                    {
+                        "id": "276006",
+                        "name": "Westerleigh",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "423400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Westerleigh/r_276006/",
+                        "latitude": "40.619472",
+                        "longitude": "-74.136544"
+                    },
+                    {
+                        "id": "10329",
+                        "name": "Belle Harbor",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "711400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Belle-Harbor/r_10329/",
+                        "latitude": "40.575475",
+                        "longitude": "-73.853377"
+                    },
+                    {
+                        "id": "270842",
+                        "name": "Garment District",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Garment-District/r_270842/",
+                        "latitude": "40.751789",
+                        "longitude": "-73.988111"
+                    },
+                    {
+                        "id": "270917",
+                        "name": "Randall Manor",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "503000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Randall-Manor/r_270917/",
+                        "latitude": "40.63813",
+                        "longitude": "-74.100632"
+                    },
+                    {
+                        "id": "270950",
+                        "name": "Todt Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "1012600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Todt-Hill/r_270950/",
+                        "latitude": "40.590636",
+                        "longitude": "-74.106837"
+                    },
+                    {
+                        "id": "194257",
+                        "name": "Dongan Hills",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "362500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Dongan-Hills/r_194257/",
+                        "latitude": "40.585269",
+                        "longitude": "-74.098087"
+                    },
+                    {
+                        "id": "193292",
+                        "name": "Bergen Beach",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "642500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bergen-Beach/r_193292/",
+                        "latitude": "40.614126",
+                        "longitude": "-73.899437"
+                    },
+                    {
+                        "id": "403198",
+                        "name": "Richmond Valley",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Richmond-Valley/r_403198/",
+                        "latitude": "40.518151",
+                        "longitude": "-74.234699"
+                    },
+                    {
+                        "id": "270834",
+                        "name": "Fieldston",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Fieldston/r_270834/",
+                        "latitude": "40.895347",
+                        "longitude": "-73.902509"
+                    },
+                    {
+                        "id": "343207",
+                        "name": "City Island",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "418200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/City-Island/r_343207/",
+                        "latitude": "40.848407",
+                        "longitude": "-73.78687"
+                    },
+                    {
+                        "id": "270838",
+                        "name": "Forest Hills Gardens",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "1779700"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Forest-Hills-Gardens/r_270838/",
+                        "latitude": "40.714815",
+                        "longitude": "-73.841803"
+                    },
+                    {
+                        "id": "403219",
+                        "name": "Columbia Street Waterfront District",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Columbia-Street-Waterfront-District/r_403219/",
+                        "latitude": "40.6862",
+                        "longitude": "-74.003199"
+                    },
+                    {
+                        "id": "197294",
+                        "name": "Port Ivory",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "272600"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Port-Ivory/r_197294/",
+                        "latitude": "40.633129",
+                        "longitude": "-74.180781"
+                    },
+                    {
+                        "id": "198296",
+                        "name": "Sunnyside",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "456500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Sunnyside/r_198296/",
+                        "latitude": "40.614462",
+                        "longitude": "-74.108693"
+                    },
+                    {
+                        "id": "37557",
+                        "name": "Breezy Point",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Breezy-Point/r_37557/",
+                        "latitude": "40.553363",
+                        "longitude": "-73.924907"
+                    },
+                    {
+                        "id": "197231",
+                        "name": "Pleasant Plains",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "494200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Pleasant-Plains/r_197231/",
+                        "latitude": "40.517377",
+                        "longitude": "-74.219441"
+                    },
+                    {
+                        "id": "273205",
+                        "name": "Central Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Central-Park/r_273205/",
+                        "latitude": "40.78261",
+                        "longitude": "-73.965477"
+                    },
+                    {
+                        "id": "196592",
+                        "name": "New Dorp Beach",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "340100"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/New-Dorp-Beach/r_196592/",
+                        "latitude": "40.566594",
+                        "longitude": "-74.100472"
+                    },
+                    {
+                        "id": "270841",
+                        "name": "DUMBO",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "1287200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/DUMBO/r_270841/",
+                        "latitude": "40.703074",
+                        "longitude": "-73.989763"
+                    },
+                    {
+                        "id": "270914",
+                        "name": "Prospect Park South",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Prospect-Park-South/r_270914/",
+                        "latitude": "40.646542",
+                        "longitude": "-73.96712"
+                    },
+                    {
+                        "id": "403130",
+                        "name": "Bloomfield",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bloomfield/r_403130/",
+                        "latitude": "40.617547",
+                        "longitude": "-74.185243"
+                    },
+                    {
+                        "id": "193879",
+                        "name": "Clifton",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "328900"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Clifton/r_193879/",
+                        "latitude": "40.6187",
+                        "longitude": "-74.075388"
+                    },
+                    {
+                        "id": "276623",
+                        "name": "Utopia",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "737200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Utopia/r_276623/",
+                        "latitude": "40.729495",
+                        "longitude": "-73.787384"
+                    },
+                    {
+                        "id": "197300",
+                        "name": "Port Morris",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Port-Morris/r_197300/",
+                        "latitude": "40.804039",
+                        "longitude": "-73.91748"
+                    },
+                    {
+                        "id": "270809",
+                        "name": "Butler Manor",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Butler-Manor/r_270809/",
+                        "latitude": "40.507044",
+                        "longitude": "-74.22888"
+                    },
+                    {
+                        "id": "194566",
+                        "name": "Elm Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Elm-Park/r_194566/",
+                        "latitude": "40.631217",
+                        "longitude": "-74.147729"
+                    },
+                    {
+                        "id": "403200",
+                        "name": "Silver Lake",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Silver-Lake/r_403200/",
+                        "latitude": "40.624638",
+                        "longitude": "-74.099402"
+                    },
+                    {
+                        "id": "194810",
+                        "name": "Fort Wadsworth",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Fort-Wadsworth/r_194810/",
+                        "latitude": "40.601486",
+                        "longitude": "-74.059011"
+                    },
+                    {
+                        "id": "10562",
+                        "name": "Broad Channel",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "343300"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Broad-Channel/r_10562/",
+                        "latitude": "40.607125",
+                        "longitude": "-73.821105"
+                    },
+                    {
+                        "id": "35830",
+                        "name": "Malba",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "920500"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Malba/r_35830/",
+                        "latitude": "40.791919",
+                        "longitude": "-73.827773"
+                    },
+                    {
+                        "id": "270870",
+                        "name": "Lighthouse Hill",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "788400"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Lighthouse-Hill/r_270870/",
+                        "latitude": "40.576553",
+                        "longitude": "-74.137698"
+                    },
+                    {
+                        "id": "272982",
+                        "name": "Chelsea-Travis",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "375200"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Chelsea--Travis/r_272982/",
+                        "latitude": "40.589804",
+                        "longitude": "-74.192"
+                    },
+                    {
+                        "id": "403201",
+                        "name": "Clove Lake",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Clove-Lake/r_403201/",
+                        "latitude": "40.62073",
+                        "longitude": "-74.113332"
+                    },
+                    {
+                        "id": "42662",
+                        "name": "Neponsit",
+                        "zindex": {
+                            "@currency": "USD",
+                            "#text": "827000"
+                        },
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Neponsit/r_42662/",
+                        "latitude": "40.571815",
+                        "longitude": "-73.861766"
+                    },
+                    {
+                        "id": "403227",
+                        "name": "Flushing Meadows Corona Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Flushing-Meadows-Corona-Park/r_403227/",
+                        "latitude": "40.741038",
+                        "longitude": "-73.84077"
+                    },
+                    {
+                        "id": "403212",
+                        "name": "Pelham Bay Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Pelham-Bay-Park/r_403212/",
+                        "latitude": "40.86757",
+                        "longitude": "-73.801011"
+                    },
+                    {
+                        "id": "403214",
+                        "name": "Bronx Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Bronx-Park/r_403214/",
+                        "latitude": "40.859571",
+                        "longitude": "-73.877181"
+                    },
+                    {
+                        "id": "273219",
+                        "name": "Charleston",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Charleston/r_273219/",
+                        "latitude": "40.538703",
+                        "longitude": "-74.236034"
+                    },
+                    {
+                        "id": "197877",
+                        "name": "Shore Acres",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Shore-Acres/r_197877/",
+                        "latitude": "40.609713",
+                        "longitude": "-74.060316"
+                    },
+                    {
+                        "id": "403185",
+                        "name": "La Tourette Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/La-Tourette-Park/r_403185/",
+                        "latitude": "40.574099",
+                        "longitude": "-74.151599"
+                    },
+                    {
+                        "id": "270960",
+                        "name": "Vinegar Hill",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Vinegar-Hill/r_270960/",
+                        "latitude": "40.704068",
+                        "longitude": "-73.98195"
+                    },
+                    {
+                        "id": "31619",
+                        "name": "Fort Tilden",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Fort-Tilden/r_31619/",
+                        "latitude": "40.560734",
+                        "longitude": "-73.899076"
+                    },
+                    {
+                        "id": "270802",
+                        "name": "Blissville",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Blissville/r_270802/",
+                        "latitude": "40.734117",
+                        "longitude": "-73.938513"
+                    },
+                    {
+                        "id": "417961",
+                        "name": "East Jamaica Bay Islands",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/East-Jamaica-Bay-Islands/r_417961/",
+                        "latitude": "40.614665",
+                        "longitude": "-73.819636"
+                    },
+                    {
+                        "id": "54234",
+                        "name": "Roxbury",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Roxbury/r_54234/",
+                        "latitude": "40.566391",
+                        "longitude": "-73.890683"
+                    },
+                    {
+                        "id": "403208",
+                        "name": "Van Cortlandt Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Van-Cortlandt-Park/r_403208/",
+                        "latitude": "40.897049",
+                        "longitude": "-73.883908"
+                    },
+                    {
+                        "id": "403174",
+                        "name": "Fresh Kills Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Fresh-Kills-Park/r_403174/",
+                        "latitude": "40.580521",
+                        "longitude": "-74.179832"
+                    },
+                    {
+                        "id": "403229",
+                        "name": "Jacob Riis Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Jacob-Riis-Park/r_403229/",
+                        "latitude": "40.566812",
+                        "longitude": "-73.876742"
+                    },
+                    {
+                        "id": "403216",
+                        "name": "Floyd Bennett Field",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Floyd-Bennett-Field/r_403216/",
+                        "latitude": "40.59115",
+                        "longitude": "-73.893962"
+                    },
+                    {
+                        "id": "403107",
+                        "name": "John F. Kennedy International Airport",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/John-F.-Kennedy-International-Airport/r_403107/",
+                        "latitude": "40.636135",
+                        "longitude": "-73.789866"
+                    },
+                    {
+                        "id": "39299",
+                        "name": "La Guardia Airport",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/La-Guardia-Airport/r_39299/",
+                        "latitude": "40.775501",
+                        "longitude": "-73.870591"
+                    },
+                    {
+                        "id": "270893",
+                        "name": "Navy Yard",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Navy-Yard/r_270893/",
+                        "latitude": "40.701786",
+                        "longitude": "-73.975464"
+                    },
+                    {
+                        "id": "403161",
+                        "name": "Prospect Park",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Prospect-Park/r_403161/",
+                        "latitude": "40.661795",
+                        "longitude": "-73.970175"
+                    },
+                    {
+                        "id": "199023",
+                        "name": "Willowbrook",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Willowbrook/r_199023/",
+                        "latitude": "40.602695",
+                        "longitude": "-74.149493"
+                    },
+                    {
+                        "id": "403106",
+                        "name": "Governors Island",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Governors-Island/r_403106/",
+                        "latitude": "40.688623",
+                        "longitude": "-74.019238"
+                    },
+                    {
+                        "id": "403186",
+                        "name": "West Jamaica Bay Islands",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/West-Jamaica-Bay-Islands/r_403186/",
+                        "latitude": "40.617465",
+                        "longitude": "-73.856728"
+                    },
+                    {
+                        "id": "778997",
+                        "name": "Hell's Kitchen",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Hell's-Kitchen/r_778997/",
+                        "latitude": "40.765433",
+                        "longitude": "-73.993745"
+                    },
+                    {
+                        "id": "778998",
+                        "name": "Hudson Yards",
+                        "url": "http://www.zillow.com/local-info/NY-New-York/Hudson-Yards/r_778998/",
+                        "latitude": "40.756192",
+                        "longitude": "-73.999709"
+                    }
+                ]
+            }
         }
     }
 }
